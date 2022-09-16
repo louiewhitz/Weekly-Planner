@@ -11,19 +11,38 @@
   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="column-full justify-center-content">
-        <h1 class="plannertitle text-align">Weekly Planner</h1>
-      </div>
+  <div class="view">
+    <div class="container">
       <div class="row">
         <div class="column-full justify-center-content">
-          <div class="addbutton justify-center-content text-align">
-            <button class="addentry">Add Entry</button>
+          <h1 class="plannertitle text-align">Weekly Planner</h1>
+        </div>
+        <div class="row">
+          <div class="column-full justify-center-content">
+            <div class="addbutton justify-center-content text-align">
+              <button class="addentry">Add Entry</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+  <div class="modal-container view">
+    <div class="modal">
+      <div class="text-box">
+        <h1 class="text-align">Add Entry</h1>
+        <select name="Days" id="days-of-week">
+          <option value="Day of Week" selected>Day of Week</option>
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednesday">Wednesday</option>
+          <option value="Thursday">Thursday</option>
+          <option value="Friday">Friday</option>
+          <option value="Saturday">Saturday</option>
+          <option value="Sunday">Sunday</option>
+        </select></div>
+    </div>
+
   </div>
   <script src="main.js"></script>
 </body>
