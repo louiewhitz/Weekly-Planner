@@ -9,7 +9,12 @@ input {
 
 textarea {
   width: 100%;
+  resize: none;
+  font-family: "Comic Neue", sans-serif;
+  font-weight: bold;
+  border: solid 2px;
 }
+
 .container {
   margin: 0 auto;
   max-width: 100%;
@@ -31,6 +36,8 @@ textarea {
 
 button.submitentry {
   text-align: right;
+  background-color: white;
+  font-weight: bold;
 }
 
 .align-right {
@@ -45,4 +52,9 @@ button.submitentry {
 .selectcontainer {
   width: 80%;
   margin: 10px auto;
+}
+
+textarea::placeholder {
+  font-weight: 900;
+  color: black;
 }

@@ -50,3 +50,14 @@ button:hover {
 .hidden {
   display: none;
 }
+
+select {
+  margin: 0 10px 15px 0;
+  font-family: "Comic Neue", sans-serif;
+  font-weight: bold;
+  border: solid 2px;
+}
+
+.buttonboxshadow {
+  box-shadow: 2px 2px;
+}
