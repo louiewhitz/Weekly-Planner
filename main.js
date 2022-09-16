@@ -10,6 +10,7 @@ var description = document.querySelector('#description');
 // addEventListeners
 addButton.addEventListener('click', showModal);
 $formAddEntry.addEventListener('submit', handleEntrySubmit);
+selectOptionDay.addEventListener('select', selectDay);
 
 // addEventListener functions
 function showModal(event) {
@@ -32,4 +33,13 @@ function handleEntrySubmit(event) {
   console.log('currentEntry', currentEntry);
   console.dir($formAddEntry);
 
+}
+
+function selectDay(event) {
+  var eachDay = document.querySelectorAll('option');
+  for (var i = 0; i < eachDay.length; i++) {
+    var day =
+  }
+
+  console.log(eachDay.value);
 }
