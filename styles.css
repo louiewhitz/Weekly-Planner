@@ -1,0 +1,19 @@
+button {
+  font-family: "Comic Neue", sans-serif;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.addbutton {
+  margin-top: 10%;
+}
+
+.addentry {
+  width: 175px;
+  height: 45px;
+  border: 2px solid black;
+  box-shadow: 5px 5px;
+  background-color: white;
+}
